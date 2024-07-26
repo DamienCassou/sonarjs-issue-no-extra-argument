@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "sonarjs-issue-no-extra-argument",
   "version": "0.1.0",
   "description": "",
   "type": "module",
@@ -7,15 +7,10 @@
   "author": "Damien Cassou",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "lint:js": "eslint",
-    "test": "node --test"
+    "lint:js": "eslint"
   },
   "devDependencies": {
-    "@eslint/js": "^9.7.0",
     "eslint": "^9.7.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-promise": "^7.0.0",
-    "prettier": "^3.3.3"
+    "eslint-plugin-sonarjs": "^2.0.2"
   }
 }
